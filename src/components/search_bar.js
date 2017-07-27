@@ -25,8 +25,9 @@ class SearchBar extends Component{
         //ES6
         return (
             <div className="search-bar">
-                Simple YouTubbe
+                Simple YouTube
                 <input
+                    placeholder="Search..."
                     value = {this.state.term}
                     onChange = {(event) =>  this.onInputChange(event.target.value) } />
 

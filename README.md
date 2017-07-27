@@ -1,1 +1,1 @@
-Simple Youtube application using React and Redux
+Simple Youtube application using React
